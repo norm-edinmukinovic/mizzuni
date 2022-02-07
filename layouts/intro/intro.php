@@ -1,5 +1,5 @@
 <div class="intro">
-    <img src="../assetst/images/image.jpg" alt="">
+    <img src="../../assetst/images/image.jpg" alt="">
 
 
         <div class="intro__headline headline__large">
@@ -7,7 +7,7 @@
         </div>
 
         <div class="intro__button base_light">
-            Jetz entdecken <img src="../assetst/icons/arrow.svg" alt="">
+            Jetz entdecken <img src="../../assetst/icons/arrow.svg" alt="">
         </div>
 
         <div class="dashes">

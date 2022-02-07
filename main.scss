@@ -1,0 +1,47 @@
+body{
+    background-color: #F6F1EC;;
+}
+.nav{
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid black;
+
+    &__left{
+        margin-left: 36px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+
+        a{
+            text-decoration: none;
+            color: black;
+            padding-right: 24px;
+        }
+    }
+
+    &__logo{
+        padding-top: 20px;
+    }
+
+    &__right{
+        margin-right: 36px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        a:nth-child(1){
+            margin-right: 32px;
+        }
+
+        a:nth-child(2){
+            margin-right:35px;
+        }
+
+        img{
+            padding-left: 22px;
+        }
+    }
+}

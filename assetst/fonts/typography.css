@@ -1,0 +1,191 @@
+@font-face {
+    font-family: Edu Marfa;
+    src: url(./MarfaRegular.woff);
+}
+
+@font-face {
+    font-family: Edu Marfa_light;
+    src: url(./MarfaLight.woff);
+}
+
+@font-face {
+    font-family: Edu Marfa_medium;
+    src: url(./MarfaMedium.woff);
+}
+
+@font-face {
+    font-family: Beausite Slick;
+    src: url(./BeausiteSlickRegular.woff);
+}
+
+@font-face {
+    font-family: Beausite Slick_light;
+    src: url(./BeausiteSlickLight.woff);
+}
+
+
+
+.button_text{
+    font-family: Edu Marfa;
+    font-size: 18px;
+    line-height: 24px;
+
+    letter-spacing: -0.01em;
+
+    color: #000000;
+}
+
+.overline{
+
+    font-family: Edu Marfa;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+
+    color: #000000;
+}
+
+.headline_small{
+    font-family: Beausite Slick;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;
+    
+    /* identical to box height, or 112% */
+    letter-spacing: -0.01em;
+    
+    color: #000000;
+}
+
+.headline__medium{
+    font-family: Beausite Slick;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    
+    /* identical to box height, or 115% */
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+}
+
+.headline__large{
+    font-family: Beausite Slick;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 100px;
+    
+    /* identical to box height, or 104% */
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+    
+}
+
+.large-text_medium{
+    font-family: Edu Marfa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    
+    /* identical to box height, or 129% */
+    letter-spacing: -0.03em;
+    
+    color: #000000;
+}
+
+.large-text_light{
+    font-family: Edu Marfa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    
+    /* identical to box height, or 129% */
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+}
+
+.base_medium{
+    font-family: Edu Marfa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+
+    /* identical to box height, or 133% */
+    letter-spacing: -0.01em;
+
+    color: #000000;
+}
+
+.base_light{
+    font-family: Edu Marfa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+
+    /* identical to box height, or 133% */
+    letter-spacing: -0.01em;
+
+    color: #000000;
+}
+
+.base-small_medium{
+
+font-family: Edu Marfa;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+
+/* identical to box height, or 133% */
+
+color: #000000;
+
+}
+
+.base-small_light{
+    font-family: Edu Marfa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+
+    /* identical to box height, or 133% */
+    letter-spacing: -0.005em;
+
+    color: #000000;
+}
+
+.textXS_medium{
+    font-family: Edu Marfa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    /* identical to box height, or 133% */
+    letter-spacing: 0.005em;
+
+    color: #000000;
+}
+
+.textXS_light{
+    font-family: Edu Marfa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    /* identical to box height, or 133% */
+    letter-spacing: 0.005em;
+
+    color: #000000;
+}

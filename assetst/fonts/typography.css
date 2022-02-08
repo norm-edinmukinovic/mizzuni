@@ -58,8 +58,21 @@
     color: #000000;
 }
 
+.headline_light{
+    font-family: Beausite Slick_light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    
+    /* identical to box height, or 112% */
+    letter-spacing: -0.01em;
+    
+    color: #000000;
+}
+
 .headline__medium{
-    font-family: Beausite Slick;
+    font-family: Beausite Slick_light;
     font-style: normal;
     font-weight: normal;
     font-size: 40px;

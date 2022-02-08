@@ -65,7 +65,7 @@
           flex-direction: row;
   position: absolute;
   bottom: 42px;
-  left: 47%;
+  left: 48%;
 }
 
 .dashes__long {
@@ -84,6 +84,169 @@
           backdrop-filter: blur(10px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 2px;
+}
+
+.gallery {
+  margin-top: 120px;
+  margin-right: 32px;
+  margin-left: 32px;
+}
+
+.gallery__overline {
+  text-align: center;
+}
+
+.gallery__title {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.gallery__mehr {
+  margin-top: 64px;
+  text-align: center;
+}
+
+.gallery__mehr img {
+  width: 20px;
+  height: 20px;
+  margin-left: 9px;
+}
+
+.gallery__mehr .underline {
+  padding-bottom: 5px;
+  background: url(../../assetst/icons/line.png) bottom repeat-x;
+}
+
+.gallery__grid {
+  margin-top: 64px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gallery__grid-large {
+  width: 50%;
+  margin-right: 6px;
+  position: relative;
+}
+
+.gallery__grid-large--button {
+  width: 190px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.1), 0px 6px 16px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.1), 0px 6px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 32px;
+  text-align: center;
+  padding: 16px 0px;
+  z-index: 1;
+  position: absolute;
+  left: calc(50% - 190px/2 + 0.5px);
+  top: calc(50% - 56px/2);
+}
+
+.gallery__grid-large .button-arrow {
+  width: 16px;
+  height: 16px;
+  margin-left: 7px;
+}
+
+.gallery__grid-large img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
+}
+
+.gallery__grid-large::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url(.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(.png);
+}
+
+.gallery__grid-small {
+  width: 50%;
+  margin-left: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.gallery__grid-small--one {
+  position: relative;
+}
+
+.gallery__grid-small--one--button {
+  width: 194px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.1), 0px 6px 16px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.1), 0px 6px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 32px;
+  text-align: center;
+  padding: 16px 0px;
+  z-index: 1;
+  position: absolute;
+  left: calc(50% - 194px/2 + 0.5px);
+  top: calc(50% - 56px/2);
+}
+
+.gallery__grid-small--one .button-arrow {
+  width: 16px;
+  height: 16px;
+  margin-left: 7px;
+}
+
+.gallery__grid-small--one img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
+}
+
+.gallery__grid-small--one:nth-child(1) {
+  margin-bottom: 6px;
+}
+
+.gallery__grid-small--one:nth-child(1)::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.08)), to(rgba(0, 0, 0, 0.08))), url(.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)), url(.png);
+}
+
+.gallery__grid-small--one:nth-child(2) {
+  margin-top: 6px;
+}
+
+.gallery__grid-small--one:nth-child(2)::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.12)), to(rgba(0, 0, 0, 0.12))), url(.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)), url(.png);
 }
 
 body {

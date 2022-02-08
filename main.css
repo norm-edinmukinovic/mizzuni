@@ -303,4 +303,93 @@ body {
 .nav__right img {
   padding-left: 22px;
 }
+
+.footer {
+  border-top: 2px solid black;
+  margin-top: 120px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.footer__newsletter {
+  margin-top: 64px;
+  padding-bottom: 64px;
+  border-bottom: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__newsletter-info {
+  width: 50%;
+}
+
+.footer__newsletter-info__text {
+  color: #1D1D1D;
+  margin-top: 9px;
+}
+
+.footer__newsletter-email {
+  width: 50%;
+}
+
+.footer__newsletter-email input {
+  height: 72px;
+  padding-left: 24px;
+  background: #FFFFFF;
+  border: 1px solid #E7DED6;
+  width: 97%;
+  background-image: url("./assetst/icons/button.svg");
+  background-size: 36px 36px;
+  background-repeat: no-repeat;
+  background-position: 98% 50%;
+}
+
+.footer__newsletter-email ::-webkit-input-placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #7C7269;
+}
+
+.footer__newsletter-email :-ms-input-placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #7C7269;
+}
+
+.footer__newsletter-email ::-ms-input-placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #7C7269;
+}
+
+.footer__newsletter-email ::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #7C7269;
+}
+
+.footer__newsletter-email--text {
+  margin-top: 12px;
+  color: #696355;
+}
+
+.footer__newsletter-email--text span {
+  color: black;
+  font-weight: bold;
+  padding: 0px;
+  border-bottom: 1px solid black;
+}
 /*# sourceMappingURL=main.css.map */

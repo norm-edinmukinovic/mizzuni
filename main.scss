@@ -1,5 +1,6 @@
 @import './layouts/intro/intro';
 @import './layouts/gallery/gallery';
+@import './layouts/services/services';
 
 
 
@@ -64,14 +65,14 @@ border-bottom: 1px solid black;
     margin-right: 32px;
 
     &__newsletter{
-        margin-top: 64px;
+        margin-top: 68px;
         padding-bottom: 64px;
         display: flex;
         width: 100%;
         justify-content: space-between;
 
         &-info{
-            width: 50%;
+            width: 55%;
             
             &__text{
                 color: #1D1D1D;
@@ -80,7 +81,7 @@ border-bottom: 1px solid black;
         }
 
         &-email{
-            width: 50%;
+            width: 45%;
 
             input{
                 height: 72px;
@@ -122,7 +123,7 @@ border-bottom: 1px solid black;
         color: #7C7269;
 
         &-contact{
-            width: 50%;
+            width: 55%;
             margin-top: 45px;
 
             &--title{
@@ -163,7 +164,7 @@ border-bottom: 1px solid black;
         }
 
         &-links{
-            width: 50%;
+            width: 45%;
             display: flex;
 
             &--mizzuni{

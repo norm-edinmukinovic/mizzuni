@@ -104,15 +104,16 @@
 .gallery__mehr {
   margin-top: 64px;
   text-align: center;
+  cursor: pointer;
 }
 
 .gallery__mehr img {
   width: 20px;
   height: 20px;
-  margin-left: 9px;
 }
 
 .gallery__mehr .underline {
+  margin-right: 9px;
   padding-bottom: 5px;
   background: url(../../assetst/icons/line.png) bottom repeat-x;
 }
@@ -249,6 +250,94 @@
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)), url(.png);
 }
 
+.services {
+  margin-top: 120px;
+}
+
+.services__subtitle {
+  text-align: center;
+  color: #7C7269;
+}
+
+.services__title {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.services__grid {
+  margin-top: 64px;
+  margin-right: 32px;
+  margin-left: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services__grid-card {
+  width: 33.3%;
+}
+
+.services__grid-card--image {
+  position: relative;
+}
+
+.services__grid-card--image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.services__grid-card--image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.services__grid-card--image:nth-child(1) {
+  padding-right: 6px;
+}
+
+.services__grid-card--image:nth-child(2) {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.services__grid-card--image:nth-child(3) {
+  padding-left: 6px;
+}
+
+.services__grid-card--image div {
+  position: absolute;
+  width: 219px;
+  left: calc(50% - 219px/2);
+  top: calc(50% - 56px/2);
+  padding: 16px 0px;
+  text-align: center;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.1), 0px 6px 16px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.1), 0px 6px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 32px;
+}
+
+.services__grid-card--image div img {
+  margin-left: 7px;
+  width: 16px;
+  height: 16px;
+}
+
+.services__grid-card--text {
+  width: 80%;
+  margin-top: 16px;
+  color: black;
+}
+
 body {
   background-color: #F6F1EC;
   margin-left: 0px;
@@ -311,7 +400,7 @@ body {
 }
 
 .footer__newsletter {
-  margin-top: 64px;
+  margin-top: 68px;
   padding-bottom: 64px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -323,7 +412,7 @@ body {
 }
 
 .footer__newsletter-info {
-  width: 50%;
+  width: 55%;
 }
 
 .footer__newsletter-info__text {
@@ -332,7 +421,7 @@ body {
 }
 
 .footer__newsletter-email {
-  width: 50%;
+  width: 45%;
 }
 
 .footer__newsletter-email input {
@@ -399,7 +488,7 @@ body {
 }
 
 .footer__info-contact {
-  width: 50%;
+  width: 55%;
   margin-top: 45px;
 }
 
@@ -440,7 +529,7 @@ body {
 }
 
 .footer__info-links {
-  width: 50%;
+  width: 45%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

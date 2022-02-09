@@ -16,15 +16,17 @@
     &__mehr{
         margin-top: 64px;
         text-align: center;
+        cursor: pointer;
         
 
         img{
             width: 20px;
             height: 20px;
-            margin-left: 9px;
+            
         }
 
         .underline{
+            margin-right: 9px;
             padding-bottom:  5px;
             background: url(../../assetst/icons/line.png) bottom repeat-x;
         }

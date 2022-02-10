@@ -1,0 +1,142 @@
+.carousel{
+    margin-top: 120px;
+   
+    margin-left: 32px;
+
+
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        z-index: 1;
+
+        &-arrow{
+
+            margin-right: 32px;
+
+            .back{
+                rotate: 180deg;
+                margin-right: 25px;
+                width: 10px;
+                height: 16px;
+                padding: 15px;
+            }
+
+            .next{
+                width: 10px;
+                height: 16px;
+                background: rgba(29, 29, 29, 0.1);
+                padding: 15px;
+                border-radius: 50%;
+            }
+
+        }
+    }
+
+    &__container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-color: lightgreen;
+
+        &--content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top:64px;
+            left: 0px;
+
+            &-card{
+                width: 380px;
+                background: lightcoral;
+                margin-right: 12px;
+                
+
+            }
+
+        }
+
+
+        
+    }
+
+}
+
+#container {
+    margin-top: 32px;
+    overflow: hidden;
+
+
+    #posts {
+    width: 140%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+        &__card{
+        width: 30%;
+        margin-right: 12px;
+
+        &-image{
+            position: relative;
+
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+
+            &--filter{
+                width: 64px;
+                position: absolute;
+                bottom: 5%;
+                right: 5%;
+                color: #7C7269;
+            }
+        }
+
+        &-info{
+            margin-top: 12px;
+            display: flex;
+            justify-content: space-between;
+
+            &--name{
+                
+                .title{
+                    color: #1D1D1D;
+                }
+
+                .subtitle{
+                    margin-top: 2px;
+                    color:#7C7269;
+                }
+            }
+
+            &--price{
+                
+                .price{
+                    color: #1D1D1D;
+                }
+
+                .includes{
+                    margin-top: 2px;
+                    color:#7C7269;
+                    text-align: end;
+                }
+
+            }
+
+
+        }
+
+            
+    }
+
+    }
+}
+
+

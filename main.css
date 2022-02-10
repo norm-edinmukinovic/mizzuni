@@ -905,7 +905,6 @@
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  background-color: lightgreen;
 }
 
 .carousel__container--content {
@@ -925,7 +924,6 @@
 
 .carousel__container--content-card {
   width: 380px;
-  background: lightcoral;
   margin-right: 12px;
 }
 

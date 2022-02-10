@@ -28,7 +28,6 @@
                 padding: 15px;
                 border-radius: 50%;
             }
-
         }
     }
 
@@ -39,7 +38,6 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        background-color: lightgreen;
 
         &--content{
             display: flex;
@@ -51,18 +49,12 @@
 
             &-card{
                 width: 380px;
-                background: lightcoral;
                 margin-right: 12px;
                 
-
             }
-
         }
-
-
         
     }
-
 }
 
 #container {

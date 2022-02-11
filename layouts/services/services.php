@@ -13,7 +13,7 @@
             <div class="services__grid-card--image">
             <img src="../../assetst/images/card1.svg" alt="">
 
-            <div class="button_text">
+            <div class="base_light">
             Online-Beratung <img src="../../assetst/icons/arrow.svg" alt="">
             </div>
             </div>
@@ -30,7 +30,7 @@
             <div class="services__grid-card--image">
             <img src="../../assetst/images/card2.svg" alt="">
 
-            <div class="button_text">
+            <div class="base_light">
             Muster bestellen <img src="../../assetst/icons/arrow.svg" alt="">
             </div>
             </div>
@@ -46,7 +46,7 @@
             <div class="services__grid-card--image">
             <img src="../../assetst/images/card3.svg" alt="">
 
-            <div class="button_text">
+            <div class="base_light">
             Produktberatung <img src="../../assetst/icons/arrow.svg" alt="">
             </div>
             </div>

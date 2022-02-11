@@ -25,7 +25,7 @@
 
 
 
-.button_text{
+.button_text, #button_text{
     font-family: Edu Marfa;
     font-size: 18px;
     line-height: 24px;
@@ -34,7 +34,7 @@
 
 }
 
-.overline{
+.overline, #overline{
 
     font-family: Edu Marfa;
     font-size: 15px;
@@ -44,7 +44,7 @@
 
 }
 
-.headline_small{
+.headline_small, #headline_small{
     font-family: Beausite Slick_light;
     font-style: normal;
     font-weight: normal;
@@ -56,7 +56,7 @@
     
 }
 
-.headline_light{
+.headline_light, #headline_light{
     font-family: Beausite Slick_light;
     font-style: normal;
     font-weight: normal;
@@ -69,7 +69,7 @@
  
 }
 
-.headline__medium{
+.headline__medium, #headline__medium{
     font-family: Beausite Slick_light;
     font-style: normal;
     font-weight: normal;
@@ -82,7 +82,7 @@
 
 }
 
-.headline__large{
+.headline__large, #headline__large{
     font-family: Beausite Slick_light;
     font-style: normal;
     font-weight: 300;
@@ -96,7 +96,7 @@
     
 }
 
-.large-text_medium{
+.large-text_medium, #large-text_medium{
     font-family: Edu Marfa;
     font-style: normal;
     font-weight: normal;
@@ -108,7 +108,7 @@
 
 }
 
-.large-text_light{
+.large-text_light, #large-text_light{
     font-family: Edu Marfa;
     font-style: normal;
     font-weight: normal;
@@ -121,7 +121,7 @@
 
 }
 
-.base_medium{
+.base_medium, #base-medium{
     font-family: Edu Marfa;
     font-style: normal;
     font-weight: normal;
@@ -130,11 +130,9 @@
 
     /* identical to box height, or 133% */
     letter-spacing: -0.01em;
-
-  
 }
 
-.base_light{
+.base_light, #base_light{
     font-family: Edu Marfa_light;
     font-style: normal;
     font-weight: normal;
@@ -146,7 +144,7 @@
 
 }
 
-.base-small_medium{
+.base-small_medium, #base-small_medium{
 
 font-family: Edu Marfa_medium;
 font-style: normal;
@@ -160,7 +158,7 @@ line-height: 20px;
 
 }
 
-.base-small_light{
+.base-small_light, #base-small_light{
     font-family: Edu Marfa_light;
     font-style: normal;
     font-weight: normal;
@@ -172,7 +170,7 @@ line-height: 20px;
 
 }
 
-.textXS_medium{
+.textXS_medium, #textXS_medium{
     font-family: Edu Marfa_medium;
     font-style: normal;
     font-weight: normal;
@@ -185,7 +183,7 @@ line-height: 20px;
 
 }
 
-.textXS_light{
+.textXS_light, #textXS_light{
     font-family: Edu Marfa_light;
     font-style: normal;
     font-weight: normal;

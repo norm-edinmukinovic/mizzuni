@@ -1,3 +1,4 @@
+<?php include("layout.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,8 +10,7 @@
     <link rel="stylesheet" href="./assetst/fonts/typography.css">
 
     <title>MIZZUNI</title>
-    <link rel="shortcut icon" href="./assetst/icons/Vector.svg"> 
-    <script src="carousel.js"></script>  
+    <link rel="shortcut icon" href="./assetst/icons/Vector.svg">   
 </head>
 <body>
     

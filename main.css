@@ -66,8 +66,8 @@
 }
 
 .intro__button img {
-  width: 16px;
-  height: 16px;
+  width: 15px;
+  height: 12px;
   margin-left: 6px;
 }
 
@@ -532,6 +532,7 @@
   position: relative;
   display: inline-block;
   z-index: 5;
+  border: none;
 }
 
 .shop__popup-table .tooltip .tooltiptext {
@@ -621,6 +622,7 @@
   position: relative;
   display: inline-block;
   z-index: 5;
+  border: none;
 }
 
 .shop__popup-lamp .tooltip .tooltiptext {
@@ -710,6 +712,7 @@
   position: relative;
   display: inline-block;
   z-index: 5;
+  border: none;
 }
 
 .shop__popup-sofa .tooltip .tooltiptext {
@@ -799,6 +802,7 @@
   position: relative;
   display: inline-block;
   z-index: 5;
+  border: none;
 }
 
 .shop__popup-bowl .tooltip .tooltiptext {

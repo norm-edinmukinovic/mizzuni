@@ -1,6 +1,6 @@
 <div class="shop">
 
-    <img src="../../assetst/images/shop_img.jpg" alt="">
+    <img src="<?php echo $data['background_image'] ?>" alt="">
 
     <div class="shop__button-previus">
         <img src="../../assetst/icons/arrow_next.svg" alt="">
@@ -15,8 +15,10 @@
         <div class="tooltip">
         <img src="../../assetst/icons/circle_point.svg" alt="">
             <div class="tooltiptext base_light">
-                Okme table <img src="../../assetst/icons/pupup_arrow.svg" alt="">
-                <p class="textXS_light" >Alias</p>
+                <?php echo $data['first_tooltip_title'] ?> <img src="../../assetst/icons/pupup_arrow.svg" alt="">
+                <p class="textXS_light" >
+                    <?php echo $data['first_tooltip_subtitle'] ?>
+                </p>
             </div>
         </div>
     </div>
@@ -25,8 +27,10 @@
     <div class="tooltip">
         <img src="../../assetst/icons/circle_point.svg" alt="">
             <div class="tooltiptext base_light">
-                Okme lamp <img src="../../assetst/icons/pupup_arrow.svg" alt="">
-                <p class="textXS_light" >Alias</p>
+            <?php echo $data['second_tooltip_title'] ?> <img src="../../assetst/icons/pupup_arrow.svg" alt="">
+                <p class="textXS_light" >
+                <?php echo $data['second_tooltip_subtitle'] ?>
+                </p>
             </div>
         </div>
     </div>
@@ -35,8 +39,10 @@
     <div class="tooltip">
         <img src="../../assetst/icons/circle_point.svg" alt="">
             <div class="tooltiptext base_light">
-                Okme sofa <img src="../../assetst/icons/pupup_arrow.svg" alt="">
-                <p class="textXS_light" >Alias</p>
+                <?php echo $data['third_tooltip_title'] ?> <img src="../../assetst/icons/pupup_arrow.svg" alt="">
+                <p class="textXS_light" >
+                <?php echo $data['third_tooltip_subtitle'] ?>
+                </p>
             </div>
         </div>
     </div>
@@ -45,8 +51,10 @@
     <div class="tooltip">
         <img src="../../assetst/icons/circle_point.svg" alt="">
             <div class="tooltiptext base_light">
-                Okme bowl <img src="../../assetst/icons/pupup_arrow.svg" alt="">
-                <p class="textXS_light" >Alias</p>
+            <?php echo $data['fourth_tooltip_title'] ?> <img src="../../assetst/icons/pupup_arrow.svg" alt="">
+                <p class="textXS_light" >
+                <?php echo $data['fourth_tooltip_subtitle'] ?>
+                </p>
             </div>
         </div>
     </div>

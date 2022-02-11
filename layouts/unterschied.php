@@ -1,41 +1,41 @@
 <div class="unterschied">
 
     <div class="headline__medium"> 
-    Der Mizzuni-Unterschied
+    <?php echo $data['unterschied_title']?>
     </div>
 
     <div class="unterschied__grid">
 
         <div class="unterschied__grid-card">
-            <img src="../../assetst/icons/table.svg" alt="">
+            <img src="<?php echo $data['first_card_image'] ?>" alt="">
 
             <div class="unterschied__grid-card--title base_medium">
-            Hochwertige und fair produzierte Möbel
+            <?php echo $data['first_card_title']?>
             </div>
             <div class="unterschied__grid-card--text textXS_light">
-            von ausgewählten Marken
+            <?php echo $data['first_card_text']?>
             </div>
         </div>
 
         <div class="unterschied__grid-card">
-            <img src="../../assetst/icons/sofa.svg" alt="">
+            <img src="<?php echo $data['second_card_image']?>" alt="">
 
             <div class="unterschied__grid-card--title base_medium">
-            Persönlich, schnell und kompetent beraten
+            <?php echo $data['second_card_title']?>
             </div>
             <div class="unterschied__grid-card--text textXS_light">
-            Wir sind für Sie da!
+            <?php echo $data['second_card_text']?>
             </div>
         </div>
 
         <div class="unterschied__grid-card">
-            <img src="../../assetst/icons/shelf.svg" alt="">
+            <img src="<?php echo $data['third_card_image']?>" alt="">
 
             <div class="unterschied__grid-card--title base_medium">
-            Auf den Millimeter genau geliefert (und montiert)
+            <?php echo $data['third_card_title']?>
             </div>
             <div class="unterschied__grid-card--text textXS_light">
-            Lieferoptionen ansehen
+            <?php echo $data['third_card_text']?>
             </div>
         </div>
 

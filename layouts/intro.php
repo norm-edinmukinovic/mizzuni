@@ -1,12 +1,12 @@
 <div class="intro">
-    <img src="../../assetst/images/image.jpg" alt="">
+    <img src="<?php echo $data['intro__image']?>" alt="">
 
 
 
         
 
             <div class="intro__headline headline__large">
-            Die Eichholtz <br> Signature Collection
+            <?php echo $data['intro__headline'] ?>
             </div>
 
             <div class="intro__button base_light">

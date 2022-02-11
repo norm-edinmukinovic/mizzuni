@@ -7,7 +7,7 @@
 
     <div class="carousel__header">
         <div class="carousel__header-title headline__medium">
-            Unsere Topseller
+            <?php echo $data['carousel__title']?>
         </div>
 
         <div class="carousel__header-arrow">
@@ -25,7 +25,7 @@
     <div id="posts__card">
 
         <div id="posts__card-image">
-        <img src="../../assetst/images/carousel1.jpg" alt="">
+        <img src="<?php echo $data['first_card_image']?>" alt="">
 
             <div id="posts__card-image--filter">
                 <img src="../../assetst/icons/config_black.svg" alt="">
@@ -37,13 +37,21 @@
 
         <div id="posts__card-info">
             <div id="posts__card-info--name">
-                <div class="title base-small_light">Fen</div>
-                <div class="subtitle textXS_light">NowyStyl</div>
+                <div class="title base-small_medium">
+                    <?php echo $data['first_card_title'] ?> </div>
+
+                <div class="subtitle textXS_light">
+                    <?php echo $data['first_card_subtitle']?>
+                </div>
             </div>
 
             <div id="posts__card-info--price">
-                <div class="price base-small_light">ab €123,00</div>
-                <div class="includes textXS_light">inkl.MwSt.</div>
+                <div class="price base-small_light">
+                    <?php echo $data['first_card_price']?></div>
+
+                <div class="includes textXS_light">
+                <?php echo $data['first_card_includes']?>
+                </div>
             </div>
         </div>
 
@@ -51,7 +59,7 @@
 
     <div id="posts__card">
         <div id="posts__card-image">
-        <img src="../../assetst/images/carousel2.jpg" alt="">
+        <img src="<?php echo $data['second_card_image'] ?>" alt="">
 
             <div id="posts__card-image--filter">
                 <img src="../../assetst/icons/config_white.svg" alt="">
@@ -63,13 +71,22 @@
 
         <div id="posts__card-info">
             <div id="posts__card-info--name">
-                <div class="title base-small_light">Fen</div>
-                <div class="subtitle textXS_light">NowyStyl</div>
+                <div class="title base-small_medium">
+                <?php echo $data['second_card_title'] ?>
+                </div>
+
+                <div class="subtitle textXS_light">
+                <?php echo $data['second_card_subtitle'] ?>
+                </div>
             </div>
 
             <div id="posts__card-info--price">
-                <div class="price base-small_light">ab €123,00</div>
-                <div class="includes textXS_light">inkl.MwSt.</div>
+                <div class="price base-small_light">
+                <?php echo $data['second_card_price'] ?>
+                </div>
+                <div class="includes textXS_light">
+                <?php echo $data['second_card_includes'] ?>
+                </div>
             </div>
         </div>
 
@@ -78,7 +95,7 @@
 
     <div id="posts__card">
         <div id="posts__card-image">
-        <img src="../../assetst/images/carousel1.jpg" alt="">
+        <img src="<?php echo $data['third_card_image']?> " alt="">
 
             <div id="posts__card-image--filter">
                 <img src="../../assetst/icons/config_black.svg" alt="">
@@ -90,13 +107,21 @@
 
         <div id="posts__card-info">
             <div id="posts__card-info--name">
-                <div class="title base-small_light">Fen</div>
-                <div class="subtitle textXS_light">NowyStyl</div>
+                <div class="title base-small_medium">
+                <?php echo $data['third_card_title']?>
+                </div>
+                <div class="subtitle textXS_light">
+                <?php echo $data['third_card_subtitle']?>
+                </div>
             </div>
 
             <div id="posts__card-info--price">
-                <div class="price base-small_light">ab €123,00</div>
-                <div class="includes textXS_light">inkl.MwSt.</div>
+                <div class="price base-small_light">
+                <?php echo $data['third_card_price']?>
+                </div>
+                <div class="includes textXS_light">
+                <?php echo $data['third_card_includes']?>
+                </div>
             </div>
         </div>
 
@@ -105,7 +130,7 @@
 
     <div id="posts__card">
         <div id="posts__card-image">
-        <img src="../../assetst/images/carousel2.jpg" alt="">
+        <img src="<?php echo $data['fourth_card_image'] ?>" alt="">
 
             <div id="posts__card-image--filter">
                 <img src="../../assetst/icons/config_white.svg" alt="">
@@ -117,13 +142,21 @@
 
         <div id="posts__card-info">
             <div id="posts__card-info--name">
-                <div class="title base-small_light">Fen</div>
-                <div class="subtitle textXS_light">NowyStyl</div>
+                <div class="title base-small_medium">
+                <?php echo $data['fourth_card_title'] ?>
+                </div>
+                <div class="subtitle textXS_light">
+                <?php echo $data['fourth_card_subtitle'] ?>
+                </div>
             </div>
 
             <div id="posts__card-info--price">
-                <div class="price base-small_light">ab €123,00</div>
-                <div class="includes textXS_light">inkl.MwSt.</div>
+                <div class="price base-small_light">
+                <?php echo $data['fourth_card_price'] ?>
+                </div>
+                <div class="includes textXS_light">
+                <?php echo $data['fourth_card_includes'] ?>
+                </div>
             </div>
         </div>
 
@@ -132,7 +165,7 @@
 
     <div id="posts__card">
         <div id="posts__card-image">
-        <img src="../../assetst/images/carousel1.jpg" alt="">
+        <img src="<?php echo $data['fifth_card_image'] ?>" alt="">
 
             <div id="posts__card-image--filter">
                 <img src="../../assetst/icons/config_black.svg" alt="">
@@ -144,13 +177,21 @@
 
         <div id="posts__card-info">
             <div id="posts__card-info--name">
-                <div class="title base-small_light">Fen</div>
-                <div class="subtitle textXS_light">NowyStyl</div>
+                <div class="title base-small_medium">
+                <?php echo $data['fifth_card_title'] ?>
+                </div>
+                <div class="subtitle textXS_light">
+                <?php echo $data['fifth_card_subtitle'] ?>
+                </div>
             </div>
 
             <div id="posts__card-info--price">
-                <div class="price base-small_light">ab €123,00</div>
-                <div class="includes textXS_light">inkl.MwSt.</div>
+                <div class="price base-small_light">
+                <?php echo $data['fifth_card_price'] ?>
+                </div>
+                <div class="includes textXS_light">
+                <?php echo $data['fifth_card_includes'] ?>
+                </div>
             </div>
         </div>
 
@@ -159,7 +200,7 @@
 
     <div id="posts__card">
         <div id="posts__card-image">
-        <img src="../../assetst/images/carousel2.jpg" alt="">
+        <img src="<?php echo $data['sixth_card_image']?>" alt="">
 
             <div id="posts__card-image--filter">
                 <img src="../../assetst/icons/config_white.svg" alt="">
@@ -171,20 +212,26 @@
 
         <div id="posts__card-info">
             <div id="posts__card-info--name">
-                <div class="title base-small_light">Fen</div>
-                <div class="subtitle textXS_light">NowyStyl</div>
+                <div class="title base-small_medium">
+                <?php echo $data['sixth_card_title']?>
+                </div>
+                <div class="subtitle textXS_light">
+                <?php echo $data['sixth_card_subtitle']?>
+                </div>
             </div>
 
             <div id="posts__card-info--price">
-                <div class="price base-small_light">ab €123,00</div>
-                <div class="includes textXS_light">inkl.MwSt.</div>
+                <div class="price base-small_light">
+                <?php echo $data['sixth_card_price']?>
+                </div>
+                <div class="includes textXS_light">
+                <?php echo $data['sixth_card_includes']?>
+                </div>
             </div>
         </div>
 
 
     </div>
-
-
 
 
     

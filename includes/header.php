@@ -1,4 +1,4 @@
-<?php include("layout.php"); ?>
+<?php include("./includes/layout.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -954,6 +954,17 @@
   color: #7C7269;
 }
 
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+    .carousel-cell {
+      width: 22%;
+      height: 600px;
+      margin-right: 12px;
+      counter-increment: carousel-cell;
+    }
+  }
+}
+
 body {
   background-color: #F6F1EC;
   margin-left: 0px;

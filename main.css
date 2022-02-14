@@ -908,7 +908,7 @@
 }
 
 .carousel-cell {
-  width: 22.5%;
+  width: 22%;
   margin-right: 12px;
   counter-increment: carousel-cell;
 }

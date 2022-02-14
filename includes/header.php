@@ -8,6 +8,9 @@
 
     <link rel="stylesheet" href="../main.css">
     <link rel="stylesheet" href="./assetst/fonts/typography.css">
+    <link rel="stylesheet" href="../flickity.css" media="screen">
+    <script src="../flickity.pkgd.min.js"></script>
+
 
     <title>MIZZUNI</title>
     <link rel="shortcut icon" href="./assetst/icons/Vector.svg">   

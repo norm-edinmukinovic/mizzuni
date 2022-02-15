@@ -17,6 +17,11 @@
         margin-top: 64px;
         text-align: center;
         cursor: pointer;
+
+        a{
+            text-decoration: none;
+            color: #1d1d1d;
+        }
         
 
         img{
@@ -47,20 +52,30 @@
         width: 50%;
         margin-right: 6px;
         position: relative;
+        border-radius: 6px;
 
         &--button{
-            width: 190px;
-            background: #FFFFFF;
-            box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.1), 
-            0px 6px 16px rgba(0, 0, 0, 0.15);
-            border-radius: 32px;
-            text-align: center;
-            padding: 16px 0px;
-            z-index: 1;
-
             position: absolute;
             left: calc(50% - 190px/2 + 0.5px);
-            top: calc(50% - 56px/2);
+            top: calc(52% - 56px/2);
+            cursor: pointer;
+            z-index: 2;
+
+            a{
+                text-decoration: none;
+                width: 190px;
+                background: #FFFFFF;
+                box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.1), 
+                0px 6px 16px rgba(0, 0, 0, 0.15);
+                border-radius: 32px;
+                text-align: center;
+                color: #1d1d1d;
+                padding: 16px 25px;
+                z-index: 1;
+            }
+            
+
+            
 
         }
 
@@ -76,8 +91,10 @@
 
     &-large img{
         width: 100%;
+        height: 100%;
         object-fit: cover;
         border-radius: 6px;
+        position: relative;
     }
 
     &-large::after{
@@ -86,7 +103,8 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;       
+        height: 100%;
+        border-radius: 6px;       
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), 
         rgba(0, 0, 0, 0.15)), url(.png);
     }
@@ -105,19 +123,23 @@
         position: relative;
     
         &--button{
-            width: 194px;
-            background: #FFFFFF;
-            box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.1), 
-            0px 6px 16px rgba(0, 0, 0, 0.15);
-            border-radius: 32px;
-            text-align: center;
-            padding: 16px 0px;
-            z-index: 1;
-
-
             position: absolute;
             left: calc(50% - 194px/2 + 0.5px);
-            top: calc(50% - 56px/2);
+            top: calc(52% - 56px/2);
+            z-index: 2;
+
+            a{
+                text-decoration: none;
+                color: #1d1d1d;
+                width: 194px;
+                background: #FFFFFF;
+                box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.1), 
+                0px 6px 16px rgba(0, 0, 0, 0.15);
+                border-radius: 32px;
+                text-align: center;
+                padding: 16px 25px;
+                z-index: 1;
+            }  
         }
 
         .button-arrow{
@@ -130,6 +152,7 @@
 
     &-small--one img{
         width: 100%;
+        height: 100%;
         object-fit: cover;
         border-radius: 6px;
     }
@@ -143,7 +166,8 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 100%;       
+            height: 100%; 
+            border-radius: 6px;      
             background: linear-gradient(0deg, rgba(0, 0, 0, 0.08),
             rgba(0, 0, 0, 0.08)), url(.png);
         }
@@ -158,7 +182,8 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 100%;       
+            height: 100%;     
+            border-radius: 6px;  
             background: linear-gradient(0deg, rgba(0, 0, 0, 0.12),
             rgba(0, 0, 0, 0.12)), url(.png);
         }

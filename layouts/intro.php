@@ -10,7 +10,7 @@
             </div>
 
             <div class="intro__button base_light">
-                <button> Jetz entdecken <img src="../../assetst/icons/arrow.svg" alt=""> </button> 
+            <a href="#">Jetz entdecken <img src="../../assetst/icons/arrow.svg" alt=""> </a>  
             </div>
 
 

@@ -14,7 +14,7 @@
         <img src="<?php echo $data['grid-image-wohnzimmer']?>" alt="">
 
                 <div class="gallery__grid-large--button base_light">
-                    Wohnzimmer <img class="button-arrow"src="../../assetst/icons/arrow.svg" alt="">
+                <a href="#">Wohnzimmer <img class="button-arrow"src="../../assetst/icons/arrow.svg" alt=""></a>  
                 </div>
         </div>
 
@@ -24,7 +24,7 @@
             <img src="<?php echo $data['grid-image-schlafzimmer'] ?>" alt="">
 
                 <div class="gallery__grid-small--one--button base_light">
-                    Schlafzimmer <img class="button-arrow"src="../../assetst/icons/arrow.svg" alt="">
+                <a href="#"> Schlafzimmer <img class="button-arrow"src="../../assetst/icons/arrow.svg" alt=""></a>
                 </div>
             </div>
 
@@ -32,7 +32,7 @@
             <img src="<?php echo $data['grid-image-homeoffice'] ?>" alt="">
 
                 <div class="gallery__grid-small--one--button base_light">
-                    Home-Office <img class="button-arrow"src="../../assetst/icons/arrow.svg" alt="">
+                <a href="#"> Home-Office <img class="button-arrow"src="../../assetst/icons/arrow.svg" alt=""></a>
                 </div>
             </div>
 
@@ -42,7 +42,7 @@
 
 
     <div class="gallery__mehr headline_light">
-    <span class="underline">Mehr Räume</span>  <img src="../../assetst/icons/arrow.svg" alt="">
+    <a href="#"> <span class="underline">Mehr Räume</span>  <img src="../../assetst/icons/arrow.svg" alt=""></a>
     </div>
 
 

@@ -10,14 +10,20 @@
     }
 }
 
-
 .carousel {
     margin-top: 32px;
-    
+
+   
     &-cell {
         width: 22%;
+        height: 600px;
         margin-right: 12px;
         counter-increment: carousel-cell;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }    
 
         &-image{
             width: 100%;
@@ -41,6 +47,8 @@
 
 
             }
+
+            
         }
 
 
@@ -60,6 +68,20 @@
     }
 }
 
+.flickity-prev-next-button.previous {
+    top: -10%;
+    right: 92px;
+  }
+  .flickity-prev-next-button.next {
+    top: -10%;
+    right: 32px;
+    background: rgba(29, 29, 29, 0.1);
+  }
+  
+ 
+
+
+
 @media not all and (min-resolution:.001dpcm)
     { @supports (-webkit-appearance:none) and (stroke-color:transparent) {
     .carousel-cell { 
@@ -70,3 +92,14 @@
                 
     }
 }}
+
+
+@supports (-ms-ime-align:auto) {
+    .carousel-cell { 
+        width: 22%;
+        height: 600px;
+        margin-right: 12px;
+        counter-increment: carousel-cell;
+                
+    }
+}

@@ -159,7 +159,11 @@ border-bottom: 1px solid black;
 
             &--link{
                 margin-top: 32px;
-                color: black;
+                
+                a{
+                    text-decoration: none;
+                    color: #1D1D1D;
+                }
 
                 span{
                     padding-bottom:  5px;

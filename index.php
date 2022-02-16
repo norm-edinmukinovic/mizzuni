@@ -4,8 +4,11 @@ include "./includes/header.php";
 
 
 getLayout("intro", array(
-    'intro__headline' => 'Die Eichholtz <br> Signature Collection',
-    'intro__image' => './assetst/images/image.jpg'
+    'first_intro__headline' => 'Die Eichholtz <br> Signature Collection',
+    'first_intro__image' => './assetst/images/image.jpg',
+
+    'second_intro__headline' => 'Neue Lösungen <br>von NowyStyl',
+    'second_intro__image' => './assetst/images/imageintro.jpg'
 ));
 
 

@@ -49,7 +49,9 @@
             </div>
 
             <div class="footer__info-contact--link headline_light">
+            <a href="#">   
             <span>Häufig gestellte Fragen</span>  <img src="./assetst/icons/arrow.svg" alt="">
+            </a>
             </div>
 
         </div>

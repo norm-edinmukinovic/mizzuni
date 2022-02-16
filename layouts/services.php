@@ -14,7 +14,9 @@
             <img src="<?php echo $data['first_card_image'] ?>" alt="">
 
             <div class="base_light">
+            <a href="#">    
             Online-Beratung <img src="../../assetst/icons/arrow.svg" alt="">
+            </a>
             </div>
             </div>
 
@@ -30,7 +32,9 @@
             <img src="<?php echo $data['second_card_image'] ?>" alt="">
 
             <div class="base_light">
+            <a href="#">    
             Muster bestellen <img src="../../assetst/icons/arrow.svg" alt="">
+            </a>
             </div>
             </div>
 
@@ -45,7 +49,9 @@
             <img src="<?php echo $data['third_card_image'] ?>" alt="">
 
             <div class="base_light">
+            <a href="#">    
             Produktberatung <img src="../../assetst/icons/arrow.svg" alt="">
+            </a>
             </div>
             </div>
 

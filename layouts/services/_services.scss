@@ -30,29 +30,38 @@
                     top: 0;
                     left: 0;
                     width: 100%;
-                    height: 100%;
+                    height: 99.5%;
                     background: rgba(0, 0, 0, 0.12);
                 }
     
                 img{
                     width: 100%;
+                    height: 100%;
                     object-fit: cover;
                 }
     
                 &:nth-child(1){
-                    padding-right: 6px;
+                    margin-right: 6px;
                 }
     
                 &:nth-child(2){
-                    padding-left: 6px;
-                    padding-right: 6px;
+                    margin-left: 6px;
+                    margin-right: 6px;
                 }
     
                 &:nth-child(3){
-                    padding-left: 6px;
+                    margin-left: 6px;
                 }
 
                 div{
+                    z-index: 1;
+                    cursor: pointer;
+
+                    a{
+                    text-decoration: none;
+                    color: black;
+                    }
+
                     position: absolute;
                     width: 219px;
                     left: calc(50% - 219px/2);

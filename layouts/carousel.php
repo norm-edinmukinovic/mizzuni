@@ -8,9 +8,11 @@
 
 
         <!-- Flickity HTML init -->
-    <div class="carousel" data-flickity='{  "cellAlign": "left", "groupCells": true }'>
+    <div class="carousel" data-flickity='{  "cellAlign": "left", "groupCells": true, "pageDots": false }'>
 
     <div class="carousel-cell">
+
+    <a href="#">
 
             <div class="carousel-cell-image">
             <img src="<?php echo $data['first_card_image']?>" alt="">
@@ -43,10 +45,14 @@
                 </div>
             </div>
 
+    </a>
+
     </div>
 
 
     <div class="carousel-cell">
+
+    <a href="#">
 
             <div class="carousel-cell-image">
             <img src="<?php echo $data['second_card_image'] ?>" alt="">
@@ -79,11 +85,15 @@
                     </div>
                 </div>
             </div>
+
+            </a>
         
     </div>
 
     <div class="carousel-cell">
 
+    <a href="#">
+
             <div class="carousel-cell-image">
             <img src="<?php echo $data['first_card_image']?>" alt="">
 
@@ -114,10 +124,12 @@
                     </div>
                 </div>
             </div>
-
+            </a>
     </div>
 
     <div class="carousel-cell">
+
+    <a href="#">
 
             <div class="carousel-cell-image">
             <img src="<?php echo $data['second_card_image'] ?>" alt="">
@@ -150,11 +162,14 @@
                     </div>
                 </div>
             </div>
+            </a>
         
     </div>
 
     <div class="carousel-cell">
 
+    <a href="#">
+
     <div class="carousel-cell-image">
             <img src="<?php echo $data['first_card_image']?>" alt="">
 
@@ -185,10 +200,13 @@
                     </div>
                 </div>
             </div>
+            </a>
 
     </div>
 
     <div class="carousel-cell">
+
+    <a href="#">
 
     <div class="carousel-cell-image">
             <img src="<?php echo $data['second_card_image'] ?>" alt="">
@@ -221,10 +239,13 @@
                     </div>
                 </div>
             </div>
+            </a>
 
     </div>
 
     <div class="carousel-cell">
+
+    <a href="#">
 
     <div class="carousel-cell-image">
             <img src="<?php echo $data['first_card_image']?>" alt="">
@@ -256,10 +277,13 @@
                     </div>
                 </div>
             </div>
+            </a>
 
     </div>
 
     <div class="carousel-cell">
+
+    <a href="#">
 
     <div class="carousel-cell-image">
             <img src="<?php echo $data['second_card_image'] ?>" alt="">
@@ -292,6 +316,7 @@
                     </div>
                 </div>
             </div>
+            </a>
 
     </div>
 

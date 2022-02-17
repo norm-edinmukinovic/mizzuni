@@ -1,7 +1,8 @@
 <div class="shop">
 
 
-<div class="shop-carousel" data-flickity='{"prevNextButtons": true, "pageDots": true }'>
+<div class="shop-carousel" data-flickity='{"prevNextButtons": true, "pageDots": true,
+    "arrowShape": "M92.5,42.5H25.6L37.8,30.3A7.5,7.5,0,1,0,27.2,19.7l-25,25a7.5,7.5,0,0,0,0,10.6l25,25a7.5,7.5,0,0,0,10.6,0,7.5,7.5,0,0,0,0-10.6L25.6,57.5H92.5a7.5,7.5,0,0,0,0-15Z"}'>
 
     <div class="shop-carousel-cell"> 
 

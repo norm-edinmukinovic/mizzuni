@@ -1,7 +1,7 @@
 <div class="intro">
 
 <div class="intro-carousel"
-data-flickity='{"autoPlay": 1200 , "prevNextButtons": false, "pageDots": true }'>
+data-flickity='{"autoPlay": 1900 , "prevNextButtons": false, "pageDots": true }'>
     <div class="intro-carousel-cell"> 
 
         <img src="<?php echo $data['first_intro__image']?>" alt=""> 

@@ -94,6 +94,15 @@
       counter-increment: carousel-cell;
       position: relative;
     }
+    .intro::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(29, 29, 29, 0.2);
+    }
   }
 }
 
@@ -411,7 +420,7 @@
 }
 
 .unterschied__grid-card img {
-  width: 80%;
+  width: 85%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -490,9 +499,26 @@
   width: 100%;
   height: 132px;
   left: 0px;
-  top: 85%;
+  top: 90%;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(99.48%, rgba(0, 0, 0, 0.4)));
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 99.48%);
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+    .shop-carousel-cell::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 132px;
+      left: 0px;
+      top: 90%;
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(99.48%, rgba(0, 0, 0, 0.4)));
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 99.48%);
+    }
+  }
 }
 
 .shop-carousel-cell__popup-table {

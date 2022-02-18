@@ -16,14 +16,14 @@
             flex-direction: column;
 
             img{
-                width: 85%;
+                width: 70%;
                 object-fit: cover;
             }
 
             @media not all and (min-resolution:.001dpcm)
                 { @supports (-webkit-appearance:none) and (stroke-color:transparent) {
                 img { 
-                width: 80%;
+                width: 70%;
                 height: 50%;
                 object-fit: cover;
                 }
@@ -44,14 +44,14 @@
             }
 
             &--title{
-                width: 80%;
+                width: 70%;
                 justify-content: center;
                 text-align: center;
                 margin-top: 46px;
             }
 
             &--text{
-                width: 80%;
+                width: 70%;
                 justify-content: center;
                 text-align: center;
                 color: #7C7269;

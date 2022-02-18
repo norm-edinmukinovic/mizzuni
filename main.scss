@@ -28,12 +28,18 @@ border-bottom: 1px solid black;
         a{
             text-decoration: none;
             color: black;
-            padding-right: 24px;
+            margin-right: 24px;
+            padding-bottom: -10px;
+
+            &:nth-child(1){
+                text-decoration: underline 1px solid black;
+            }
         }
     }
 
     &__logo{
         padding-top: 20px;
+        margin-left: 65px;
     }
 
     &__right{
@@ -119,7 +125,7 @@ border-bottom: 1px solid black;
                     color: black;
                     font-weight: bold;
                     padding: 0px;
-                    border-bottom: 1px solid black;
+                    text-decoration: underline 1px solid black;
                 }
             }
         }
@@ -250,6 +256,10 @@ border-bottom: 1px solid black;
         }
 
         &-socials{
+            a{
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+            }
 
             img{
                 margin-left: 25px;
@@ -321,24 +331,25 @@ border-bottom: 1px solid black;
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
-  }
-  
-  .tooltip .tooltiptext {
-    visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 150%;
-  left: 50%;
-  margin-left: -60px;
-  }
+}
 
-  .tooltip .tooltiptext::after {
+
+    .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+    }
+
+    .tooltip .tooltiptext::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -347,8 +358,8 @@ border-bottom: 1px solid black;
     border-width: 5px;
     border-style: solid;
     border-color: black transparent transparent transparent;
-  }
-  
-  .tooltip:hover .tooltiptext {
+    }
+
+    .tooltip:hover .tooltiptext {
     visibility: visible;
-  }
+    }

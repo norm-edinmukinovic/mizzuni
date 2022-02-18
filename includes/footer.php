@@ -113,8 +113,8 @@
         </div>
 
         <div class="footer__icons-socials">
-            <img src="./assetst/icons/social-facebook.svg" alt="">
-            <img src="./assetst/icons/social-instagram.svg" alt="">
+            <a href="#"> <img src="./assetst/icons/social-facebook.svg" alt=""></a>
+            <a href="#"> <img src="./assetst/icons/social-instagram.svg" alt=""></a>
         </div>
 
     </div>
